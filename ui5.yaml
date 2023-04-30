@@ -34,4 +34,4 @@ server:
       afterMiddleware: compression
       mountPath: /resources/be/wl/SpaceLibrary
       configuration:
-        rootPath: "../ui5-space-webcomponent-library/src/be/wl/SpaceLibrary"
+        rootPath: "../be.wl.SpaceLibrary/src/be/wl/SpaceLibrary"
