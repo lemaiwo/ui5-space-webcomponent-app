@@ -12,7 +12,23 @@
 		"description": "{{appDescription}}",
 		"applicationVersion": {
 			"version": "1.0.0"
-		}
+		},
+        "crossNavigation": {
+            "inbounds": {
+                "Space-app": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "Space",
+                    "action": "app",
+                    "title": "Space app",
+                    "subTitle": "UI5con",
+                    "info": "",
+                    "icon": "sap-icon://syntax"
+                }
+            }
+        }
 	},
 
 	"sap.ui": {
