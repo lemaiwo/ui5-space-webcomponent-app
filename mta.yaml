@@ -3,10 +3,10 @@ ID: spaceapp
 description: creation
 version: 0.0.1
 modules:
-- name: spaceapp-dest-content
+- name: space-dest-content
   type: com.sap.application.content
   requires:
-  - name: spaceapp-dest-srv
+  - name: space-dest-srv
     parameters:
       content-target: true
   - name: spaceapp-repo-host
@@ -58,14 +58,14 @@ modules:
     - npm run build:cf
     supported-platforms: []
 resources:
-- name: spaceapp-dest-srv
+- name: space-dest-srv
   type: org.cloudfoundry.managed-service
   parameters:
     config:
       HTML5Runtime_enabled: true
       version: 1.0.0
     service: destination
-    service-name: spaceapp-dest-srv
+    service-name: space-dest-srv
     service-plan: lite
 - name: spaceapp-xsuaa-srv
   type: org.cloudfoundry.managed-service
