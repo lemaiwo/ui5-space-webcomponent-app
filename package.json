@@ -15,7 +15,8 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "SpaceLibrary": "file:../be.wl.SpaceLibrary"
+    "spacelibrary": "file:../be.wl.spacelibrary",
+		"spacepackage": "../spacepackage"
   },
   "devDependencies": {
     "@openui5/ts-types-esm": "1.114.0",

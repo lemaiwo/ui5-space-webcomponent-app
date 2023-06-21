@@ -3,7 +3,7 @@
 	displayBlock="true"
 	xmlns="sap.m"
 	xmlns:f="sap.f"
-	xmlns:wl="be.wl.SpaceLibrary"
+	xmlns:wl="be.wl.spacelibrary"
 	xmlns:mvc="sap.ui.core.mvc">
 
 	<f:DynamicPage id="dynamicPageId">
